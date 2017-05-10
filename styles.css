@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title-card {
+  background-color: #333;
+  width: 80%;
+  padding: 2px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+}
+
+.menu-item {
+  display: inline-block;
+  background-color: gray;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  border: 2px solid white;
+}
+
+.menu-item a:hover {
+  color: #333;
+}
+
+.photo-quantity-bar {
+  display: block;
+  background-color: teal;
+  width: 70%;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+}
+
+.photo-quantity-number {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  font-weight: bold;
+}
+
+.photo-gallery {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 70%;
+}
+
+.photo-box {
+  display: inline-block;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-bottom: 10px;
+  width: 33%;
+  padding: 1px;
+}
+
+.edit-delete-bar {
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  padding: 4px;
+  display: inline-block;
+  width: 100%;
+}
+
+.edit-delete-bar a {
+  color: blue;
+}
+
+.edit-delete-bar a:hover {
+  color: red;
+}
+
+.copyright {
+  width: 80%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 6px solid white;
+}
